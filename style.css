@@ -86,8 +86,8 @@
   margin: 16%;
   font-family: "Pixelify Sans", sans-serif;
   font-size: 43px;
-  transform: rotate(-2deg);
   background-color: white;
+  /*permet de changer opacité d'un objet précis*/
   background-color:rgba(220,220,220,.1);
 }
 
