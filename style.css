@@ -70,14 +70,13 @@ height: 100vh;
   position: fixed;
 }
 
-.fnaf2{
-  background-image: url("images/fnaf2.jpg");
+.briques{
+  background-image: url("img/briques.JPG");
   background-size: cover;
   background-position: top center;
   width: 100%;
   position: fixed;
 }
-
 
 /* display page */
 .home{
@@ -102,8 +101,11 @@ height: 100vh;
 }
 
 .soldier{
-  width: 170%;
+  width: 50%;
   z-index: 2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 /* Page contact */
@@ -159,14 +161,16 @@ legend    {
 .texteH {
   background-color: rgba(255, 255, 255, 0.286);
   border-radius: 15px;
-  width: 80%;
-  height: 60%;
-  margin: 15%;
+  width: 60%;
   font-family: "Pixelify Sans", sans-serif;
-  font-size: 200%;
+  font-size: 2rem;
   text-align: center;
   z-index: 1;
-  position: relative;
+  justify-content: flex-end;
+  position: fixed;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
 }
 
 #nom{
@@ -194,25 +198,27 @@ legend    {
 
 /* Skills */
 .barrecompetence {
-  height: 1%;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 2%;
 }
 
 .skill {
   width: 60%;
-  background-color: #b7b7a4;
+  background-color: #b8b8b8;
   border-radius: 50px;
-  margin-top: 50px;
-
+  margin-top: 30px;
 }
+
 .skill2 {
-  width: 60%;
-  background-color: #6b705c;
+  width: 70%;
+  background-color: #870000;
   border-radius: 50px;
+  border: 3px solid #b8b8b8;
 }
 
 .L{
@@ -224,9 +230,6 @@ legend    {
 
 /* disparu */
 @media screen and (max-width: 1160px){
-  .nav{
-    display: none;
-  } 
 
   .soldier{
     display: none;
@@ -260,29 +263,6 @@ legend    {
     background-color: #555;
   }
   
-  .menu .submenu {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 100%;
-  }
-  
-  .menu .submenu li {
-    white-space: nowrap;
-  }
-  
-  .menu .submenu li a {
-    padding: 8px 15px;
-  }
-  
-  .menu .submenu li:hover {
-    background-color: #555;
-  }
-  
-  .menu .submenu li:hover > .submenu {
-    display: block;
-  }
-  
   .menu-toggle {
     display: block;
     position: absolute;
@@ -297,5 +277,19 @@ legend    {
     height: 3px;
     margin-bottom: 5px;
     background-color: #333;
+  }
+
+  .texteH {
+    background-color: rgba(255, 255, 255, 0.286);
+    border-radius: 15px;
+    width: 80%;
+    margin: 10%;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+    justify-content: flex-end;
+    position: fixed;
+    transform: translate(0, -50%);
   }
 }
