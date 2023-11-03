@@ -225,7 +225,7 @@ legend    {
   height: 40px;
   width: 40px;
   display: flex;
-  margin-left: -10%;
+  margin-left: -20%;
 }
 
 /* disparu */
@@ -291,5 +291,12 @@ legend    {
     justify-content: flex-end;
     position: fixed;
     transform: translate(0, -50%);
+  }
+
+  .L{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    margin-left: -30%;
   }
 }
