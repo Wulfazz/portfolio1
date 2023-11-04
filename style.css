@@ -106,7 +106,7 @@ height: 100vh;
 }
 
 .soldier{
-  width: 50%;
+  width: 45%;
   z-index: 2;
   position: fixed;
   bottom: 0;
@@ -154,7 +154,10 @@ height: 100vh;
   width: 100%;  
   max-width: 1200px;  
   padding: 3%; 
-  margin: 5%;
+  margin-top: 3%;
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
 }  
 
 @media screen and (max-width: 760px) {  
@@ -186,6 +189,21 @@ height: 100vh;
   transition: transform 0.35s ease-in-out;  
   border-radius: 6px;
 }  
+
+.texteM{
+  display: flex;
+  font-family: "Pixelify Sans", sans-serif;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.695);
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 2.5rem;
+}
+
+/* effet de cartes quand on passe dessus */
 
 .b-game-card__cover::after {  
   display: block;  
