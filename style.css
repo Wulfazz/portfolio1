@@ -116,7 +116,8 @@ height: 100vh;
 .texteH {
   background-color: rgba(255, 255, 255, 0.286);
   border-radius: 15px;
-  width: 60%;
+  width: 55%;
+  height: 55%;
   font-family: "Pixelify Sans", sans-serif;
   font-size: 2rem;
   text-align: center;
@@ -288,8 +289,8 @@ input[type=submit]:hover {
   box-sizing : border-box;
   border-radius:5px;
   padding:20px;
-  width: 75%;
-  height: 80%;
+  width: 80%;
+  height: 83%;
   background-color: rgba(255, 255, 255, 0.384);
   margin-left: 10%;
   margin-top: 8%;
@@ -327,7 +328,7 @@ margin-bottom: 1%;
 
 /* Skills */
 .barrecompetence {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -338,13 +339,15 @@ margin-bottom: 1%;
 
 .skill {
   width: 60%;
+  height: 5%;
   background-color: #b8b8b8;
   border-radius: 50px;
-  margin-top: 30px;
+  margin-top: 2.5%;
 }
 
 .skill2 {
   width: 70%;
+  height: 100%;
   background-color: #870000;
   border-radius: 50px;
   border: 3px solid #b8b8b8;
